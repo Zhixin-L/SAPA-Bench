@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ==== Meta (fill these) ==== -->
+  <title>SAPA-Bench</title>
+  <meta name="description"
+    content="SAPA‑Bench: 7,138 scenarios · five privacy metrics (PRR, PLR, PLAR, PCAR, RA). Comparative study on MLLM‑powered smartphone agents.">
+  <meta name="keywords" content="SAPA-Bench, privacy awareness, smartphone agents, MLLM, benchmark">
+  <meta property="og:title" content="SAPA‑Bench — Privacy Awareness Benchmark" />
+  <meta property="og:description" content="7,138 scenarios · PRR · PLR · PLAR · PCAR · RA." />
+  <meta property="og:url" content="https://YOUR_GITHUB_USERNAME.github.io/SAPA-Bench" />
+  <meta property="og:image" content="static/images/og_banner.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:title" content="SAPA‑Bench — Privacy Awareness Benchmark">
+  <meta name="twitter:description" content="7,138 scenarios · five privacy metrics.">
+  <meta name="twitter:image" content="static/images/og_banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/x-icon" href=📲>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <!-- Bulma & assets -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <!-- Simple theme tweak (orange palette) -->
+  <style>
+    :root {
+      --brand-main: #ff9800;
+      /* orange */
+      --brand-strong: #e65100;
+      /* deep orange */
+      --brand-soft: #ffe0b2;
+      /* soft bg */
+      --brand-accent: #ffb74d;
+      /* accent */
+    }
+
+    .hero.is-theme {
+      background: linear-gradient(180deg, var(--brand-soft), #fff 60%);
+    }
+
+    .button.is-brand {
+      background: var(--brand-main);
+      border-color: transparent;
+      color: #fff
+    }
+
+    .button.is-brand.is-outlined {
+      background: transparent;
+      border-color: var(--brand-strong);
+      color: var(--brand-strong)
+    }
+
+    .tag.is-brand {
+      background: var(--brand-soft);
+      color: var(--brand-strong);
+      border: 1px solid var(--brand-accent)
+    }
+
+    .box.is-soft {
+      background: #fff;
+      border: 1px solid var(--brand-soft)
+    }
+
+    .section-title {
+      color: var(--brand-strong)
+    }
+
+    .figure-frame {
+      border: 1px solid var(--brand-soft);
+      border-radius: 12px;
+      overflow: hidden
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero is-theme">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Mind the Third Eye! Benchmarking Privacy Awareness in MLLM‑powered
+              Smartphone Agents</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a href="#" target="_blank">Zhixin Lin</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://github.com/LJungang" target="_blank">Jungang
+                  Li</a><sup>2,3</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Shidong Pan</a><sup>4</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Yibo Shi</a><sup>5</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Yue Yao</a><sup>1,†</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Dongliang Xu</a><sup>1,†</sup></span>
+            </div>
+              <div class="is-size-6 publication-authors">
+                <span class="author-block"><sup>1</sup> Shandong University<br></span>
+                <span class="author-block"><sup>2</sup> Hong Kong University of Science and Technology
+                  (Guangzhou)<br></span>
+                <span class="author-block"><sup>3</sup> Hong Kong University of Science and Technology<br></span>
+                <span class="author-block"><sup>4</sup> Columbia University<br></span>
+                <span class="author-block"><sup>5</sup> Xi'an Jiaotong University</span>
+                <span class="eql-cntrb"><small><br><sup>†</sup> Corresponding Authors</small></span>
+              </div>
+
+
+            <!-- ===== CTA: badges & star ===== -->
+            <div class="content has-text-centered" style="margin-top:1rem">
+              <p>If our project helps you, please give us a star ⭐ on GitHub to support us 🥸</p>
+              <p>
+                <a href="https://huggingface.co/datasets/OmniQuest/SAPA-Bench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon" style="vertical-align: middle; font-size: 20px;"a=""></span>
+                    <span style="vertical-align: middle;">Code</span>
+
+                    <a href="#" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon" style="vertical-align: middle; font-size: 20px;"></span>
+                    <span style="vertical-align: middle;">Paper</span>
+
+                <a href="https://huggingface.co/datasets/OmniQuest/SAPA-Bench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon" style="vertical-align: middle; font-size: 20px;">🤗</span>
+                    <span style="vertical-align: middle;">Dataset</span>
+                </a>
+                  
+              </p>
+              <!-- <div class="tags is-centered">
+                <span class="tag is-brand is-medium">7,138 scenarios</span>
+                <span class="tag is-brand is-medium">PRR · PLR · PLAR · PCAR · RA</span>
+                <span class="tag is-brand is-medium">Image & Instruction</span>
+                <span class="tag is-brand is-medium">7 Agents</span>
+              </div> -->
+            </div>
+            <!-- ===== /CTA ===== -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Teaser (optional video) ===== -->
+  <!-- <section class="hero">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="teaser" autoplay controls muted loop style="width:100%">
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">Privacy‑aware evaluation for real smartphone agent workflows.</h2>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ===== Abstract ===== -->
+  <section class="section is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 section-title">Abstract</h2>
+          <div class="content has-text-justified box is-soft">
+            <p>
+              We present <strong>SAPA‑Bench</strong>, a large‑scale benchmark of <strong>7,138 scenarios</strong> to
+              measure privacy awareness in MLLM‑powered smartphone agents across recognition, localization, category,
+              sensitivity level, and risk response. We define five metrics (PRR, PLR, PLAR, PCAR, RA) and evaluate seven
+              representative agents.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Inline Figures (PNG) ===== -->
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <h2 class="title is-3 section-title has-text-centered">Figures</h2>
+      <div class="columns is-multiline">
+        <div class="column is-6">
+          <figure class="image figure-frame">
+            <img src="assets/figures/1_introduction.png" alt="Introduction">
+          </figure>
+          <p class="has-text-centered">Figure A — Introduction</p>
+        </div>
+        <div class="column is-6">
+          <figure class="image figure-frame">
+            <img src="assets/figures/3_benchmark.png" alt="Benchmark">
+          </figure>
+          <p class="has-text-centered">Figure B — Benchmark</p>
+        </div>
+        <div class="column is-6">
+          <figure class="image figure-frame">
+            <img src="assets/figures/4_data_constrution.png" alt="Data Construction">
+          </figure>
+          <p class="has-text-centered">Figure C — Data Construction</p>
+        </div>
+        <div class="column is-6">
+          <figure class="image figure-frame">
+            <img src="assets/figures/5_each_model_RA.png" alt="Risk Awareness (RA) per Model">
+          </figure>
+          <p class="has-text-centered">Figure D — Risk Awareness by Model</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== BibTeX ===== -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3 section-title">BibTeX</h2>
+      <pre><code>@article{lin2025sapa,
+  title   = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
+  author  = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
+  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  year    = {2025}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> (adapted from <a href="https://nerfies.github.io"
+                target="_blank">Nerfies</a>). You are free to borrow the source code; please link back in the footer.
+              Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC
+                BY-SA 4.0</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
