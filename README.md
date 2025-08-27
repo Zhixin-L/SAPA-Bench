@@ -13,7 +13,7 @@
 
 ## TODO
 - [ ] Release the SAPA-Bench.
-- [ ] Release the evaluation code.
+- [ ] Release the latest evaluation code.
 - [ ] ···
 
 ## 📖SAPA-Bench Overview
