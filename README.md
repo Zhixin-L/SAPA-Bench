@@ -3,11 +3,11 @@
         If our project helps you, please give us a star ⭐ on GitHub to support us. 🥸🥸
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b.svg?style=plastic)](https://arxiv.org/abs/25xx.xxxxx) [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/xxx/xxx) [![ms_checkpoint](https://img.shields.io/badge/🤖-xxx--xxx-8A2BE2.svg)](https://www.modelscope.cn/datasets/xxx/xxx)  
+[![arXiv](https://img.shields.io/badge/arXiv-2508.19493-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2508.19493) [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench) 
 </div>
 
 ## 🔥 News
-* **`2025-xx-xx`** 🎉 🌟 We are happy to release the SAPA-Bench. You can find the SAPA-Bench from [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/xxx/SAPA-Bench) or [![ms_checkpoint](https://img.shields.io/badge/🤖-SAPA--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/xxx/xxx).
+* **`2025-08-28`** 🎉 🌟 We are happy to release the SAPA-Bench. You can find the SAPA-Bench from [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench).
 
 
 
@@ -47,6 +47,10 @@ We benchmarked **seven mainstream smartphone agents** and found:
 ## 📑 Citation
 If you find **SAPA-Bench** useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{
+@article{lin2025sapa,
+  title   = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
+  author  = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
+  journal = {arXiv preprint arXiv:2508.19493},
+  year    = {2025}
 }
 ```
