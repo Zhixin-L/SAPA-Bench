@@ -7,6 +7,7 @@
 </div>
 
 ## 🔥 News
+* **`2025-11-09`** 🎉🎉🎉 Our work has been accepted by AAAI 2026!
 * **`2025-08-28`** 🎉 🌟 We are happy to release the SAPA-Bench. You can find the SAPA-Bench from [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench).
 
 
