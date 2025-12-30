@@ -1,15 +1,49 @@
 <div align="center">
-  <h1>📲<i>Mind the Third Eye!</i> Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents</h1> 
-        If our project helps you, please give us a star ⭐ on GitHub to support us. 🥸🥸
-
-
-[![arXiv](https://img.shields.io/badge/arXiv-2508.19493-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2508.19493) [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench) 
+  <h2>
+    <a href="https://github.com/Zhixin-L/SAPA-Bench">
+      SPAP-Bench: Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents
+    </a>
+  </h2>
 </div>
 
-## 🔥 News
-* **`2025-11-18`** 🌟 We have realeased the SAPA-Bench on the [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench) today. Feel free to try it out, and don't forget to leave us a ⭐ — it really means a lot to us!
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=dSQdVooAAAAJ">Zhixin Lin</a><sup>1</sup>,
+  <a href="https://github.com/LJungang">Jungang Li</a><sup>2,3</sup>,
+  <a href="https://shidongpan.github.io/">Shidong Pan</a><sup>4</sup>,
+  <a href="https://openreview.net/profile?id=~Yibo_Shi2">Yibo Shi</a><sup>5</sup>,
+  <a href="https://scholar.google.com/citations?user=dSQdVooAAAAJ">Yue Yao</a><sup>1†</sup>,
+  <a href="https://faculty.sdu.edu.cn/xudongliang/zh_CN/index.htm">Dongliang Xu</a><sup>1†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Shandong University&nbsp;&nbsp;
+  <sup>2</sup>HKUST(GZ)&nbsp;&nbsp;
+  <sup>3</sup>HKUST&nbsp;&nbsp;
+  <sup>4</sup>Columbia University&nbsp;&nbsp;
+  <sup>5</sup>Xi’an Jiaotong University
+</p>
+
+<p align="center">
+  <em>† Corresponding Author</em>
+</p>
+
+<div align="center">
+  <p align="center">
+    &nbsp&nbsp📑 <a href="https://arxiv.org/pdf/2508.19493"><b>Paper</b></a>&nbsp&nbsp |
+    &nbsp&nbsp🏠 <a href="https://zhixin-l.github.io/SAPA-Bench"><b>Project Page</b></a>&nbsp&nbsp |
+    🤗 <a href="https://huggingface.co/datasets/OmniQuest/SAPA-Bench"><b>Dataset</b></a>&nbsp&nbsp
+  </p>
+
+  <p align="center">
+    If you find this work useful, please consider starring ⭐ the repository to support our research.
+  </p>
+</div>
+
+
+## 📰 News
+* **`2025-11-18`** 🌟 We have realeased the SAPA-Bench on the [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg?style=flat-square)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench) today. Feel free to try it out, and don't forget to leave us a ⭐ — it really means a lot to us!
 * **`2025-11-09`** 🎉🎉🎉 Our work has been accepted by AAAI 2026!
-* **`2025-08-28`** 🎉 🌟 We are happy to release the SAPA-Bench. You can find the SAPA-Bench from [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench).
+* **`2025-08-28`** 🎉 🌟 We are happy to release the SAPA-Bench. You can find the SAPA-Bench from [![hf_checkpoint](https://img.shields.io/badge/🤗-SAPA--Bench-9C276A.svg?style=flat-square)](https://huggingface.co/datasets/OmniQuest/SAPA-Bench).
 
 
 
