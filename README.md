@@ -47,12 +47,12 @@
 
 
 
-## TODO
+## 👉 TODO
 - [x] Release the SAPA-Bench.
 - [ ] Release the latest evaluation code.
 - [ ] ···
 
-## 📖SAPA-Bench Overview
+## 📖 SAPA-Bench Overview
 
 Smartphones offer great convenience but also collect vast amounts of personal information.  
 With the rise of **MLLM-powered smartphone agents**, automation performance has improved significantly—yet at the cost of **extensive access to sensitive user data**.  
@@ -67,12 +67,12 @@ We benchmarked **seven mainstream smartphone agents** and found:
 - **Closed-source agents** generally perform better; **Gemini 2.0-flash** achieved the highest RA (67%).  
 - Privacy detection strongly correlates with **sensitivity level**—higher sensitivity makes scenarios more identifiable.  
 
-👉 Our results highlight the urgent need to rethink the **utility–privacy tradeoff** in the design of smartphone agents.  
+ Our results highlight the urgent need to rethink the **utility–privacy tradeoff** in the design of smartphone agents.  
 
 
 
 
-## 🛠️Evaluation 
+## 🛠️ Evaluation 
 ```shell
 
 ```
@@ -83,10 +83,10 @@ We benchmarked **seven mainstream smartphone agents** and found:
 ## 📑 Citation
 If you find **SAPA-Bench** useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{lin2025sapa,
+@inproceedings{lin2025sapa,
   title   = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
   author  = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
-  journal = {arXiv preprint arXiv:2508.19493},
-  year    = {2025}
+  booktitle={The Fortieth Annual AAAI Conference on Artificial Intelligence},
+  year={2026},
 }
 ```
