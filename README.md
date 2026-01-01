@@ -84,9 +84,9 @@ We benchmarked **seven mainstream smartphone agents** and found:
 If you find **SAPA-Bench** useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @inproceedings{lin2025sapa,
-  title   = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
-  author  = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
-  booktitle={The Fortieth Annual AAAI Conference on Artificial Intelligence},
-  year={2026},
+  title      = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
+  author     = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
+  booktitle  = {The Fortieth Annual AAAI Conference on Artificial Intelligence},
+  year       = {2026},
 }
 ```
