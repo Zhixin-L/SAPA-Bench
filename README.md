@@ -1,7 +1,7 @@
 <div align="center">
   <h2>
     <a href="https://github.com/Zhixin-L/SAPA-Bench">
-      SPAP-Bench: Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents
+      SAPA-Bench: Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents
     </a>
   </h2>
 </div>
