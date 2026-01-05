@@ -74,9 +74,9 @@ We benchmarked **seven mainstream smartphone agents** and found:
 
 ## 🛠️ Evaluation 
 ```shell
-
+bash run.sh
 ```
-
+Note: For evaluation details, please refer to the Eval README.
 ## 🌟 Star History
 
 
