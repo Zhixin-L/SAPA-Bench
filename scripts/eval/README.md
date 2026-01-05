@@ -169,14 +169,15 @@ You can override configuration using environment variables:
 
 ## Citation
 
+
+```bibtex
+
 @inproceedings{lin2025sapa,
   title      = {Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered Smartphone Agents},
   author     = {Lin, Zhixin and Li, Jungang and Pan, Shidong and Shi, Yibo and Yao, Yue and Xu, Dongliang},
   booktitle  = {The Fortieth Annual AAAI Conference on Artificial Intelligence},
   year       = {2026},
 }
-
-```bibtex
-[Add your citation information here]
 ```
+
 
